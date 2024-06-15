@@ -49,6 +49,6 @@ export async function getStaticProps({ params }) {
 
 export async function generateMetadata({ params }) {
   return {
-    title: `Support ${params.username} - Get Me A Chai`,
+    title: `Support ${params.username} - Get Me A Chai test`,
   };
 }
